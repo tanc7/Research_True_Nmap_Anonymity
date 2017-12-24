@@ -1,0 +1,1649 @@
+auth,brute,discovery,dos,exploit,external,fuzzer,intrusive,malware,version,vuln
+# /root/Desktop/intrusivescan.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+discovery
+# list_of_hosts.txt
+ssl-enum-ciphers.nse,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time
+ssl-enum-ciphers.nse,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssl-enum-ciphers.nse,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMPREHENSIVE.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # finally a single comprehensive scan which would trigger firewall alerts and must have a cooldown
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.ns
+tsc nmap -sV --version-all -sS -sU -T4 -A -v -PE -PP -PS80,443 -PA3389 -PU40125 -PY -g 53 --script=cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-use$
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.ns
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-use$
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+ssl-enum-ciphers.nse,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time
+ssl-enum-ciphers.nse,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssl-enum-ciphers.nse,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMPREHENSIVE.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # finally a single comprehensive scan which would trigger firewall alerts and must have a cooldown
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.ns
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-use$
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.ns
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,cics-enum.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-use$
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+cics-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_cics-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_msrpc-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_mysql-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sip-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-mbenum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tftp-enum.nse.xml
+# list_of_hosts.txt >> shell_script_output.log 2>&1
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.lo$
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-ccs-injection.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-ccs-injection.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-ccs-injection.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-ccs-injection.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-ccs-injection.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-ccs-injection.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-date.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-date.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-date.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-date.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-date.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-date.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-dh-params.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-dh-params.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-dh-params.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-dh-params.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-dh-params.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-dh-params.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-heartbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-heartbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-heartbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-heartbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-heartbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-heartbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-known-key.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-known-key.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-known-key.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-known-key.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-known-key.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-known-key.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-poodle.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-poodle.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-poodle.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-poodle.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-poodle.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-poodle.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2-drown.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sslv2-drown.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2-drown.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sslv2-drown.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2-drown.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sslv2-drown.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.ns
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-use$
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_msrpc-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_msrpc-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_msrpc-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_mysql-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_mysql-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_mysql-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sip-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sip-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sip-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-mbenum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-mbenum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-mbenum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tftp-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tftp-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tftp-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.lo$
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-ccs-injection.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-ccs-injection.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-ccs-injection.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-ccs-injection.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-ccs-injection.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-ccs-injection.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert-intaddr.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-cert-intaddr.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-cert.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-cert.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-date.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-date.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-date.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-date.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-date.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-date.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-dh-params.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-dh-params.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-dh-params.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-dh-params.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-dh-params.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-dh-params.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-heartbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-heartbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-heartbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-heartbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-heartbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-heartbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-known-key.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-known-key.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-known-key.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-known-key.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-known-key.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-known-key.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-poodle.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-poodle.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-poodle.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-poodle.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssl-poodle.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-poodle.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2-drown.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sslv2-drown.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2-drown.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sslv2-drown.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2-drown.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sslv2-drown.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+#tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-nextprotoneg.nse script-args=mssql.domain,mssql.instance-all,mssql.instance-name,mssql.instance-port,mssql.password,mssql.protocol,mssql.scanned-ports-only,mssql.timeout,mssql.username,smbdomain,smbhash,smbnoguest,smbpassword,smbtype,smbusername,smtp.domain,randomseed,smbbasic,smbport,smbsign.tls.servername
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-nextprotoneg.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tls-ticketbleed.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tls-ticketbleed.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+#ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssl-enum-ciphers.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-users.nse,msrpc-enum.nse,mysql-enum.nse,oracle-enum-users.nse,rdp-enum-encryption.nse,sip-enum-users.nse,smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-mbenum.nse,smtp-enum-users.nse,ssh2-enum-algos.nse,tftp-enum.nse
+#ssl-enum-ciphers.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.ns
+#sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1 # runs both the FIN and XMAS scans at the same time # ,sslv2.nse,dns-nsec-enum.nse,dns-srv-enum.nse,http-enum.nse,http-gitweb-projects-enum.nse,http-userdir-enum.nse,krb5-enum-use$
+#sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sslv2.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sslv2.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-nsec-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-nsec-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+dns-srv-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_dns-srv-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+http-userdir-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_http-userdir-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+krb5-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_krb5-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_msrpc-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_msrpc-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+msrpc-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_msrpc-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_mysql-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_mysql-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+mysql-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_mysql-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+oracle-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_oracle-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+rdp-enum-encryption.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_rdp-enum-encryption.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_sip-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_sip-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+sip-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_sip-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-domains.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-domains.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-groups.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-groups.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-shares.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-shares.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smb-mbenum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smb-mbenum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smb-mbenum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smb-mbenum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+smtp-enum-users.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_smtp-enum-users.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+ssh2-enum-algos.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_ssh2-enum-algos.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_FIN_tftp-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_XMAS_tftp-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+tftp-enum.nse
+# /root/Desktop/nmap_scans_for_msf_db_COMP_tftp-enum.nse.xml
+# list_of_hosts.txt >> ssl_detect.log 2>&1
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
+discovery
+# list_of_hosts.txt
